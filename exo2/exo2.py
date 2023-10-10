@@ -1,3 +1,10 @@
+def solution(str1,str2):
+    a = len(str1)
+    b = len(str2)
+    return str1[slice(a-b,a)] == str2
+    
+
+
 """
 Complete the solution so that it returns true if the first argument(string)
 passed in ends with the 2nd argument (also a string).
